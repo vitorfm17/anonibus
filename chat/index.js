@@ -7,6 +7,8 @@ import {
 import firebase from '../config/firebase';
 import api from '../services/axios';
 import axios from 'axios';
+import styled from 'styled-components/native';
+
 
 export default function Chat() {
 
@@ -126,6 +128,7 @@ export default function Chat() {
 
     </View>)
 }
+
 
 const styles = StyleSheet.create({
   view: {
